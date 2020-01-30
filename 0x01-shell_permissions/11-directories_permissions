@@ -1,2 +1,2 @@
 #!/bin/bash
-chown +x */
+chown u+x,g+x,o+x */
