@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R u+x,g+x,0+x ./
+chown u+x,g+x,0+x ./*
