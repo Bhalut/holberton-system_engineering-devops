@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -iname "*typeahead*" -printf '%f\n' | cut -d "." -f 1 | sort -fnk5
+find . -type f -name "*.gif" -printf '%f\n' | cut -d "." -f 1 | LC_COLLATE=C sort -nk5
