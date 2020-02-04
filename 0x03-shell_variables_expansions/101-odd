@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -n | grep -v 1,3,5,7,9 | cut -c "[0-9]:"
