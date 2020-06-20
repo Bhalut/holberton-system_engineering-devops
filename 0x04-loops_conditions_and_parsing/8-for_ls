@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script is displaying ls run command
+list=$(ls)
+for item in $list; do
+    echo "$item"
+done
