@@ -2,6 +2,6 @@
 # Displays To infinity and beyond indefinitely.
 NAME="To infinity and beyond"
 while true; do
-    echo $NAME
+    echo "$NAME"
     sleep 2
 done
