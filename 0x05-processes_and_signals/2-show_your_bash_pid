@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# isplays lines containing the bash word.
+# Displays lines containing the bash word.
 ps auxf | grep bash
