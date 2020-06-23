@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Kills 4-to_infinity_and_beyond process.
+# Kills the process 7-highlander.
 NAME="7-highlander"
 pkill --signal SIGKILL -f "$NAME"
