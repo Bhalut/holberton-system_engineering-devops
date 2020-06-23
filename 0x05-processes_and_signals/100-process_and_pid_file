@@ -3,8 +3,8 @@
 NAME="To infinity and beyond"
 trap "echo 'Y U no love me?!'" SIGINT
 trap "echo 'I hate the kill command'" SIGTERM
-trap "sudo rm -f /var/run/holbertonscript.pid; exit" SIGTERM
-trap "sudo rm -f /var/run/holbertonscript.pid; exit" SIGQUIT
+trap "rm /var/run/holbertonscript.pid; exit" SIGTERM
+trap "rm /var/run/holbertonscript.pid; exit" SIGQUIT
 echo $$ > /var/run/holbertonscript.pid
 while true; do
     echo "$NAME"
