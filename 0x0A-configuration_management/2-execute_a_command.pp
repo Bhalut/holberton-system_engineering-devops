@@ -2,5 +2,4 @@
 exec { 'killmenow':
     path     => '/usr/bin/env',
     command  => 'pkill -9 killmenow',
-    provider => 'shell',
 }
