@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# get Apache to run on the container
+sudo apt-get install apache2
