@@ -24,8 +24,8 @@ def main():
             task = {"task": todo.get("title"),
                     "completed": todo.get("completed"), "username": name}
             tasks.append(task)
-            info = {user_id: tasks}
-            file.write(json.dumps(info))
+        info = {user_id: tasks}
+        file.write(json.dumps(info))
 
 
 if __name__ == "__main__":
