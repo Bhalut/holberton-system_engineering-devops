@@ -16,7 +16,7 @@ def recurse(subreddit, hot_list=[], after=""):
     else:
         url = "https://www.reddit.com/r/{}/hot.json?after={}".format(
             subreddit, after)
-    request = requests.get(urlReddit, headers=userAgent)
+    request = requests.get(url, headers=userAgent)
     data = request.json()
 
     if request.status_code != 404:
